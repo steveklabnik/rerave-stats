@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  arcade_avatar_url: MyString
+  ios_avatar_url: MyString
+
+two:
+  username: MyString
+  arcade_avatar_url: MyString
+  ios_avatar_url: MyString
