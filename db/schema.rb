@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131208160853) do
+ActiveRecord::Schema.define(version: 20131208162804) do
 
   create_table "ravers", force: true do |t|
     t.string   "username"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20131208160853) do
     t.integer  "rank"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "platform"
   end
 
   create_table "songs", force: true do |t|
